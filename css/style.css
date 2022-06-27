@@ -28,12 +28,6 @@
     justify-content: center;
 }
 
-/* NOSOTROS */
-.nosotros1{
-    text-align: center;
-    margin: 50vh;
-    padding: 50vh;
-}
 
 /* IMAGENES GALERIA */
 .flexMendoza {
@@ -49,6 +43,9 @@
 
 }
 
+.maincolor{
+    background-color: rgba(28, 26, 26, 0.429);
+}
 /* FOOTER */
 .footer {
     width: 100%;
