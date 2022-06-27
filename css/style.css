@@ -28,6 +28,15 @@
     justify-content: center;
 }
 
+/* IMAGENES GALERIA */
+.row {
+    display: grid;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+    min-height: 300px;
+    object-fit: cover;
+}
 
 /* FOOTER */
 .footer {
