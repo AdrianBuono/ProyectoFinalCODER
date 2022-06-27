@@ -28,14 +28,25 @@
     justify-content: center;
 }
 
+/* NOSOTROS */
+.nosotros1{
+    text-align: center;
+    margin: 50vh;
+    padding: 50vh;
+}
+
 /* IMAGENES GALERIA */
-.row {
-    display: grid;
-    width: 100%;
-    vertical-align: top;
-    overflow: hidden;
-    min-height: 300px;
-    object-fit: cover;
+.flexMendoza {
+    display: flex;
+}
+
+.flexSalta {
+    display: flex;
+}
+
+.flexPatagonia {
+    display: flex;
+
 }
 
 /* FOOTER */
