@@ -18,18 +18,19 @@
     color: black;
 }
 
-.nav a:visited{
+.nav a:visited {
     color: blue;
 }
 
-.flexContacto{
+.flexContacto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+
 /* FOOTER */
-.footer{
+.footer {
     width: 100%;
     max-height: 9vh;
     min-height: 8vh;
