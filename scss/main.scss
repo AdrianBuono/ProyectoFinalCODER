@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+@import '../secciones/main';
+@import '../secciones/typografia';
+@import '../secciones/gridViajes';
+
 .separador {
     background-color: chocolate;
     height: 5px;
