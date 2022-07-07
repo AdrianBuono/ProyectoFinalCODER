@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-@import '../secciones/main';
-@import '../secciones/typografia';
-@import '../secciones/gridViajes';
+@import '../secciones/mixin.scss';
 
 .separador {
     background-color: chocolate;

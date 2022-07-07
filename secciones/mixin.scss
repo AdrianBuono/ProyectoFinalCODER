@@ -1,0 +1,11 @@
+@mixin nosotros{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.nosotros1{
+    @include nosotros;
+}
