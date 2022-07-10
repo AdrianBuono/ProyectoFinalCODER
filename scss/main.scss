@@ -1,7 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// SEPARADOR IMAGENES "VIAJES"
 .separador {
-    background-color: chocolate;
+    background-color: yellow;
     height: 5px;
 }
+
+// BODY // NAV BAR
+.fondo{
+    background-color: black;
+    color: white;
+}
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ 
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: red !important;
+}
+
 
 .footer {
     background-color: black;
@@ -23,48 +46,63 @@
     justify-content: center;
 }
 
-
-// IMG Grid viajes.html
-.mainGrid {
-    display: grid;
-    border: solid red 5px;
+// IMAGENES VIAJES
+.col-3 img{
+    margin-top: 2em;
+    width: 100%;
+    height: 15em;
 }
 
-.mainGrid1 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 1vh;
-    border: solid black 5px;
-    height: 10vh;
-}
-
-.mainGrid2 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 1vh;
-    border: solid black 5px;
-    height: 10vh;
-}
-
-.mainGrid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 1vh;
-    border: solid black 5px;
-    height: 10vh;
-}
+// PROBANDO FILAS VIAJES
+// .row{
+// height: 285px;
+// width: 234px;
+// margin-left: 10px;
+// margin-right: 10px;
+// }
 
 
-/* IMAGENES GALERIA */
-.flexMendoza {
-    display: flex;
-}
+// // IMG Grid viajes.html
+// .mainGrid {
+//     display: grid;
+//     border: solid red 5px;
+// }
 
-.flexSalta {
-    display: flex;
-}
+// .mainGrid1 {
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//     margin: 1vh;
+//     border: solid black 5px;
+//     height: 10vh;
+// }
 
-.flexPatagonia {
-    display: flex;
+// .mainGrid2 {
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//     margin: 1vh;
+//     border: solid black 5px;
+//     height: 10vh;
+// }
 
-}
+// // .mainGrid {
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//     margin: 1vh;
+//     border: solid black 5px;
+//     height: 10vh;
+// }
+
+
+// /* IMAGENES GALERIA */
+// .flexMendoza {
+//     display: flex;
+// }
+
+// .flexSalta {
+//     display: flex;
+// }
+
+// .flexPatagonia {
+//     display: flex;
+
+// }
 
 .maincolor {
     background-color: rgba(28, 26, 26, 0.429);
