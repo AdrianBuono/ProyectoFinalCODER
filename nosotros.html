@@ -17,93 +17,106 @@
 </head>
 
 <body class="fondo">
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/iconoLogo.png" alt="Logo Avion">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Viajes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="viajes.html#abrirMendoza">Mendoza</a></li>
+                            <li><a class="dropdown-item" href="viajes.html#abrirSalta">Salta</a></li>
+                            <li><a class="dropdown-item" href="viajes.html#abrirPatagonia">Patagonia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <!-- NAVBAR -->
-        <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./images/iconoLogo.png" alt="Logo Avion">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Viajes
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="viajes.html#abrirMendoza">Mendoza</a></li>
-                                <li><a class="dropdown-item" href="viajes.html#abrirSalta">Salta</a></li>
-                                <li><a class="dropdown-item" href="viajes.html#abrirPatagonia">Patagonia</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-
-                </div>
-                </div>
-            </nav>
-        </header>
-
-
-        <h1 class="nosotros1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, eum quidem porro
-            aspernatur
-            molestias
-            aliquam voluptate minima placeat architecto quod!</h1>
-        <!--CAROUSEL-->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/slider01.jpg" class="d-block w-100" alt="Patagonia">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>MONTE FITZ ROY</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/slider02.jpg" class="d-block w-100" alt="Mendoza">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>CAÑON DEL ATUEL</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/slider03.jpg" class="d-block w-100" alt="Salta">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>CAFAYATE</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        <div class="col-12">
+            <h2 class="display-2 mt-5"></h2>
+            <p>BUONO'S TOUR</p>
+            <hr class="separador">
         </div>
+        <p class="nosotros1">Nuestra misión es ofrecer información turística orientada a los
+            distintos
+            mercados, alcanzando la más amplia cobertura geográfica a nivel
+            nacional
+            y atendiendo a las necesidades de nuestros usuarios.
+            A través de nuestros representantes locales, sucursales y franquicias, situados en distintos puntos
+            del
+            país, usted encontrará la mejor atención para la concreción de viajes turísticos y empresariales,
+            provista
+            por especialistas idóneos en turismo.</p>
+        <div class="row">
+            <div class="ccol-sm-8 col-sm-offset-2">
+                <a class="display-2 mt-5"></a>
+                <!--CAROUSEL-->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/slider01.jpg" class="d-block w-100" alt="Patagonia">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>MONTE FITZ ROY</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/slider02.jpg" class="d-block w-100" alt="Mendoza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>CAÑON DEL ATUEL</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/slider03.jpg" class="d-block w-100" alt="Salta">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>CAFAYATE</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
     </main>
 
     <!-- FOOTER -->
