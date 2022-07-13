@@ -16,18 +16,19 @@
 // BODY // NAV BAR
 .fondo {
     background-color: black;
-    color: white;
 }
 
-/* cambiar tipo de letra */
+.nav-link {
+    color: white !important;
+}
+
 nav.navbar ul.nav li {
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* cambiar el color de fondo a la barra */
 nav.navbar {
-    background-color: red !important;
+    background-color: black !important;
 }
 
 // FOOTER 1
@@ -63,9 +64,9 @@ nav.navbar {
     height: 40em;
 }
 
-.col-12 p {
-    text-align: center;
-    font-size: xx-large;
+// TAMAÑO CAROUSEL
+.carousel-item{
+    display: flex !important;
 }
 
 // IMAGENES VIAJES
@@ -73,10 +74,6 @@ nav.navbar {
     margin-top: 2em;
     width: 100%;
     height: 20em;
-}
-
-.maincolor {
-    background-color: rgba(28, 26, 26, 0.429);
 }
 
 /* FOOTER 2*/
