@@ -6,9 +6,6 @@
   background-color: yellow;
   height: 5px; }
 
-.nosotros1 {
-  text-align: center; }
-
 .fondo {
   background-color: black; }
 
@@ -38,17 +35,11 @@ nav.navbar {
   flex-wrap: wrap;
   justify-content: center; }
 
-.carousel-inner {
-  margin-top: 2em;
-  width: 100%;
-  height: 20em; }
-
-.carousel-inner img {
-  width: 50% !important;
-  height: 40em; }
-
-.carousel-item {
-  display: flex !important; }
+.text-center {
+  text-align: center;
+  font-size: calc(1.575rem + 3.9vw);
+  font-weight: 300;
+  line-height: 1.2; }
 
 .col-3 img {
   margin-top: 2em;
