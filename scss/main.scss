@@ -3,15 +3,28 @@
     padding: 0;
 }
 
+// IMAGENES GALERIA
+.container-galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-galeria img {
+    transition: all 300ms;
+    border-radius: 5%;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+
+
 // SEPARADOR
 .separador {
     background-color: yellow;
     height: 5px;
 }
-
-// .nosotros1 {
-//     text-align: center;
-// }
 
 // BODY // NAV BAR
 .fondo {
