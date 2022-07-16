@@ -28,11 +28,11 @@
 
 .m-5 {
   font-family: 'Kanit', sans-serif;
-  font-size: 22px; }
+  font-size: 1.1rem; }
 
 .dropdown-item {
   font-family: 'Kanit', sans-serif;
-  background-color: #FFFFFF;
+  background-color: red;
   background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
   color: black; }
 
