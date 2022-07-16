@@ -25,28 +25,34 @@
 
 // SEPARADOR
 .separador {
-    background-color: yellow;
+    background-color: black;
     height: 5px;
 }
 
 // BODY // NAV BAR
 .fondo {
-    background-color: black;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+}
+
+.m-5 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
 }
 
 .dropdown-item {
-    background-color: rgb(39, 36, 36);
-    color: rgba(91, 241, 224, 0.24);
+    font-family: 'Kanit', sans-serif;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    color: black;
 }
 
-// VER Y MODIFICAR COLOR DESPLEGABLE "VIAJES"
-// .dropdown-menu bs-dropdown-bg {
-//     color: rgb(39, 36, 36);
-// }
-
-// .dropdown-menu bs-dropdown-link-hover-bg {
-//     color: red;
-// }
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
 
 .img-fluid:hover {
     transform: scale(1.1);
@@ -57,10 +63,12 @@
 }
 
 .nav-link {
-    color: rgba(91, 241, 224, 0.24) !important;
+    font-family: 'Kanit', sans-serif;
+    color: black !important;
     font-size: xx-large;
     font-weight: 300;
     line-height: 1.2;
+    font-style: oblique;
 }
 
 .nav-link:hover {
@@ -69,23 +77,22 @@
 
 nav.navbar ul.nav li {
     color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 nav.navbar {
-    background-color: black !important;
-}
+    background-color: #FFFFFF !important;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%) !important;
 
-// VIDEOS YOUTUBE
-.centervideo {
-    align-items: center;
+
 }
 
 // FOOTER 1
 .footer {
-    background-color: black;
     color: white;
     font-weight: 600;
+    max-height: 7vh !important;
+    min-height: 6vh !important;
 }
 
 .fa-brands:hover {
@@ -100,25 +107,35 @@ nav.navbar {
 
 // TITULOS
 .text-center {
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: calc(1.575rem + 3.9vw);
     font-weight: 300;
     line-height: 1.2;
-    color: rgba(91, 241, 224, 0.24)
+    color: black;
 }
 
 .textcontacto {
+    font-family: 'Kanit', sans-serif;
     font-size: calc(1.575rem + 3.9vw);
     font-weight: 300;
     line-height: 1.2;
-    color: rgba(91, 241, 224, 0.24)
+    color: black;
 }
 
-// IMAGENES VIAJES
+// VIAJES.HTML
+.descripciont {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    max-width: 850px;
+    margin: 15px auto;
+}
+
 .col-3 img {
     margin-top: 2em;
     width: 100%;
     height: 20em;
+    border-radius: 50%;
 }
 
 .col-3 img:hover {
