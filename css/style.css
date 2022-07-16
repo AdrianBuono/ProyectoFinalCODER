@@ -32,7 +32,7 @@
 
 .dropdown-item {
   font-family: 'Kanit', sans-serif;
-  background-color: red;
+  background-color: #FFFFFF;
   background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
   color: black; }
 
@@ -81,6 +81,7 @@ nav.navbar {
   justify-content: center; }
 
 .text-center {
+  margin-top: 35px;
   font-family: 'Kanit', sans-serif;
   text-align: center;
   font-size: calc(1.575rem + 3.9vw);
@@ -89,6 +90,7 @@ nav.navbar {
   color: black; }
 
 .textcontacto {
+  margin-top: 35px;
   font-family: 'Kanit', sans-serif;
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
